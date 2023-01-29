@@ -1,0 +1,17 @@
+.wd-body-offset {
+    padding-left: 16px;
+    border-color: rgb( 47, 51, 54 );
+    font-family: 'Chirp', sans-serif;
+}
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+.wd-bg-color-black {
+    background-color: black;
+}
+.wd-bg-color-darkgray {
+    background-color: darkgray;
+}
+.wd-fg-color-white {
+    color: white;
+}
