@@ -1,0 +1,72 @@
+.wd-bookmarks-heading {
+    margin-left: 16px;
+    margin-top: 12px;
+    font-size: 20px;
+}
+.wd-bookmarks-handle {
+    margin-left: 16px;
+    padding-bottom: 12px;
+    border-bottom: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+    font-size: 13px;
+}
+.wd-flex-container {
+    display: flex;
+}
+.wd-avatar-image {
+    margin-left: 16px;
+    margin-top: 12px;
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+}
+.wd-handle-font {
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.wd-content-font {
+    font-size: 15px;
+    max-width: 506px;
+    margin-left: 12px;
+    margin-right: 16px;
+}
+.wd-content-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-bottom: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+}
+.wd-image-font {
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 12px;
+    padding: 12px;
+    max-width: 484px;
+    border-bottom: solid;
+    border-color: lightgray;
+    border-bottom-width: 1px;
+    border-radius: 10px;
+}
+.wd-no-decoration {
+    text-decoration: none;
+}
+.wd-fg-color-red {
+    color: red;
+}
+.wd-tweet-icons {
+    padding-right: 12px;
+}
+.wd-fg-color-lightgray {
+    color: lightgray;
+}
+.wd-flex-container a {
+    padding-left: 10px;
+    padding-right: 100px;
+}

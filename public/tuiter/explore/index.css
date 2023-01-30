@@ -10,6 +10,9 @@
     min-width: 40px;
     border: 100px;
 }
+.wd-icon-color-blue {
+    color: rgb( 29, 161, 242 );
+}
 .wd-input-field {
     width: 95%;
     text-align: left;
@@ -25,7 +28,7 @@
     color: rgb( 110, 118, 125 );
 }
 .wd-link-fonts {
-    size: 15px;
+    font-size: 15px;
     padding: 16px;
     text-decoration: none;
 }
@@ -35,7 +38,7 @@
 }
 .wd-suggested-posts {
     color: rgb( 110, 118, 125 );
-    size: 13px;
+    font-size: 13px;
 }
 .wd-no-decoration {
     color: rgb( 110, 118, 125 );
