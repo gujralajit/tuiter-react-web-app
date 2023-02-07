@@ -11,3 +11,53 @@
     margin-top: 5px;
     margin-left: 5px;
 }
+
+.wd-input-icons i {
+    position: absolute;
+}
+
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wd-icon {
+    padding: 10px;
+    min-width: 40px;
+    border: 100px;
+}
+
+.wd-icon-color-blue {
+    color: rgb(29, 161, 242);
+}
+
+.wd-input-field {
+    width: 95%;
+    text-align: left;
+    margin-bottom: 3px;
+    padding: 10px 10px 10px 40px;
+}
+
+.main-section img {
+    max-width: 100%;
+    position: relative;
+}
+
+.carousel-caption {
+    text-align: left;
+    bottom: 0;
+    left: 20px;
+}
+
+.wd-suggested-icon {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+.wd-suggested-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+    float: right;
+    border-radius: 10px;
+}
