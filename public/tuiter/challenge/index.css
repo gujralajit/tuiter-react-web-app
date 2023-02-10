@@ -1,0 +1,97 @@
+.wd-img-icon {
+    display: block;
+    max-width: 500%;
+    width: 50px;
+    height: 50px;
+}
+
+.wd-img-verified {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.wd-input-icons i {
+    position: absolute;
+}
+
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wd-icon {
+    padding: 10px;
+    min-width: 40px;
+    border: 100px;
+}
+
+.wd-icon-color-black {
+    color: black;
+}
+
+.wd-input-field {
+    width: 95%;
+    text-align: left;
+    margin-bottom: 3px;
+    padding: 10px 10px 10px 40px;
+}
+
+.main-section img {
+    max-width: 100%;
+    position: relative;
+}
+
+.carousel-caption {
+    text-align: left;
+    bottom: 0;
+    left: 20px;
+}
+
+.wd-suggested-icon {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+.wd-suggested-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+    float: right;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    border: 0;
+}
+
+.list-group-item .active{
+    border: 0;
+}
+
+.wd-sidebar .list-group .list-group-item {
+    background-color: lightgray;
+}
+.nav-tabs {
+    border: 0;
+}
+.nav-item .nav-link {
+    color: gray;
+}
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 10px solid;
+    border-bottom-color: #0d6efd;
+    display:inline-block;
+}
+
+.list-group .list-group-item.active {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
