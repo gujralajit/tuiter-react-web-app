@@ -11,38 +11,63 @@
 </head>
 <body class="container pt-2">
 <div class="row">
-    <div class="col-2">
+    <div class="col-2 col-md-1 col-xl-2">
         <div class="list-group">
-            <a href="../navigation.html" class="list-group-item list-group-item-action">
-                <i class="fab fa-twitter"></i>
+            <a href="../navigation.html" class="list-group-item list-group-item-action ps-md-1 ps-lg-2">
+                <i class="fas fa-tty"></i>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <i class="fas fa-home"></i> Home
+            <a href="#" class="list-group-item list-group-item-action ps-md-1 ps-lg-2">
+                <div class="float-start">
+                <i class="fas fa-home"></i>
+                </div>
+                <div class="d-none d-xl-block d-inline-block">Home</div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action active">
-                <i class="fas fa-hashtag"></i> Explore</a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <i class="fas fa-bell"></i> Notifications
+            <a href="#" class="list-group-item list-group-item-action active ps-md-1 ps-lg-2">
+                <div class="float-start pe-1">
+                <i class="fas fa-hashtag"></i>
+                </div>
+                <div class="d-none d-xl-block d-inline-block">Explore</div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <i class="fas fa-envelope"></i> Messages
+            <a href="#" class="list-group-item list-group-item-action ps-md-1 ps-lg-2">
+                <div class="float-start pe-1">
+                <i class="fas fa-bell"></i>
+                </div>
+                <div class="d-none d-xl-block d-inline-block">Notifications</div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <i class="fas fa-bookmark"></i> Bookmarks
+            <a href="#" class="list-group-item list-group-item-action ps-md-1 ps-lg-2">
+                <div class="float-start pe-1">
+                <i class="fas fa-envelope"></i>
+                </div>
+                <div class="d-none d-xl-block d-inline-block">Messages</div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <i class="fas fa-list"></i> Lists
+            <a href="#" class="list-group-item list-group-item-action ps-md-1 ps-lg-2">
+                <div class="float-start pe-1">
+                <i class="fas fa-bookmark"></i>
+                </div>
+                <div class="d-none d-xl-block d-inline-block">Bookmarks</div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <i class="fas fa-user"></i> Profile
+            <a href="#" class="list-group-item list-group-item-action ps-md-1 ps-lg-2">
+                <div class="float-start pe-1">
+                <i class="fas fa-list"></i>
+                </div>
+                <div class="d-none d-xl-block d-inline-block">Lists</div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
-                <i class="fas fa-ellipsis-h"></i> More
+            <a href="#" class="list-group-item list-group-item-action ps-md-1 ps-lg-2">
+                <div class="float-start pe-1">
+                <i class="fas fa-user"></i>
+                </div>
+                <div class="d-none d-xl-block d-inline-block">Profile</div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action ps-md-1 ps-lg-2">
+                <div class="float-start pe-1">
+                <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="d-none d-xl-block d-inline-block">More</div>
             </a>
             <button type="button" class="btn btn-primary rounded-pill mt-2">Tuit</button>
         </div>
     </div>
-    <div class="col-6">
+    <div class="col-10 col-lg-6">
         <div class="wd-input-icons">
             <i class="fa fa-search wd-icon fa-2x"></i>
             <input class="wd-input-field wd-rounded-corners-all-around" type="text"
@@ -110,115 +135,94 @@
             </a>
         </div>
     </div>
-    <div class="col-4">
+    <div class="col-4 d-none d-lg-block">
         <ul class="list-group">
             <li class="list-group-item"><b>Who to follow</b></li>
             <li class="list-group-item">
                 <div class="row">
-                    <div class="col-1">
-                        <img src="../../img/java-icon.png" class="wd-img-icon rounded-pill float-start me-2">
+                    <div class="col-2">
+                        <img class="wd-img-icon rounded-circle float-start me-2" src="../../img/java-icon.png">
                     </div>
-                    <div class="col-6 ms-4">
-                        <div class="row">
-                            <div class="col-2">
-                                <b>Java</b><br>@Java
-                            </div>
-                            <div class="col-4">
-                                <img src="../../img/verified-icon.png"
-                                     class="wd-img-verified float-right rounded-pill">
-                            </div>
+                    <div class="col-8">
+                        <div class="text-black fw-bolder">Java
+                            <img src="../../img/verified-icon.png"
+                                 class="wd-suggested-icon wd-rounded-corners-all-around">
                         </div>
+                        <div class="text-secondary">@java</div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-2">
                         <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
                     </div>
                 </div>
             </li>
             <li class="list-group-item">
                 <div class="row">
-                    <div class="col-1">
-                        <img src="../../img/relativity-space-icon.png" class="wd-img-icon rounded-pill float-start me-2">
+                    <div class="col-2">
+                        <img class="wd-img-icon rounded-circle float-start me-2" src="../../img/relativity-space-icon.png">
                     </div>
-                    <div class="col-6 ms-4">
-                        <div class="row">
-                            <div class="col-9 pe-0">
-                                <b>Relativity Space</b><br>@relativityspace
-                            </div>
-                            <div class="col-3 p-0">
-                                <img src="../../img/verified-icon.png"
-                                     class="wd-img-verified rounded-pill p-0">
-                            </div>
+                    <div class="col-8">
+                        <div class="text-black fw-bolder">Relativity Space
+                            <img src="../../img/verified-icon.png"
+                                 class="wd-suggested-icon wd-rounded-corners-all-around">
                         </div>
+                        <div class="text-secondary">@relativityspace</div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-2">
                         <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
                     </div>
                 </div>
             </li>
             <li class="list-group-item">
                 <div class="row">
-                    <div class="col-1">
-                        <img src="../../img/virgin-icon.png" class="wd-img-icon rounded-pill float-start me-2">
+                    <div class="col-2">
+                        <img class="wd-img-icon rounded-circle float-start me-2" src="../../img/virgin-icon.png">
                     </div>
-                    <div class="col-6 ms-4">
-                        <div class="row">
-                            <div class="col-8 pe-0">
-                                <b>Virgin Galactic</b><br>@virgingalactic
-                            </div>
-                            <div class="col-4">
-                                <img src="../../img/verified-icon.png"
-                                     class="wd-img-verified float-right rounded-pill">
-                            </div>
+                    <div class="col-8">
+                        <div class="text-black fw-bolder">Virgin Galactic
+                            <img src="../../img/verified-icon.png"
+                                 class="wd-suggested-icon wd-rounded-corners-all-around">
                         </div>
+                        <div class="text-secondary">@virgingalactic</div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-2">
                         <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
                     </div>
                 </div>
             </li>
             <li class="list-group-item">
                 <div class="row">
-                    <div class="col-1">
-                        <img src="../../img/nasa-icon.png" class="wd-img-icon rounded-pill float-start me-2">
+                    <div class="col-2">
+                        <img class="wd-img-icon rounded-circle float-start me-2" src="../../img/nasa-icon.png">
                     </div>
-                    <div class="col-6 ms-4">
-                        <div class="row">
-                            <div class="col-2 pe-2">
-                                <b>NASA</b><br>@NASA
-                            </div>
-                            <div class="col-4 ms-2">
-                                <img src="../../img/verified-icon.png"
-                                     class="wd-img-verified float-right rounded-pill">
-                            </div>
+                    <div class="col-8">
+                        <div class="text-black fw-bolder">NASA
+                            <img src="../../img/verified-icon.png"
+                                 class="wd-suggested-icon wd-rounded-corners-all-around">
                         </div>
+                        <div class="text-secondary">@NASA</div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-2">
                         <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
                     </div>
                 </div>
             </li>
             <li class="list-group-item">
                 <div class="row">
-                    <div class="col-1">
-                        <img src="../../img/tesla-icon.png" class="wd-img-icon rounded-pill float-start me-2">
+                    <div class="col-2">
+                        <img class="wd-img-icon rounded-circle float-start me-2" src="../../img/tesla-icon.png">
                     </div>
-                    <div class="col-6 ms-4">
-                        <div class="row">
-                            <div class="col-2">
-                                <b>Tesla</b><br>@Tesla
-                            </div>
-                            <div class="col-4">
-                                <img src="../../img/verified-icon.png"
-                                     class="wd-img-verified float-right rounded-pill">
-                            </div>
+                    <div class="col-8">
+                        <div class="text-black fw-bolder">Tesla
+                            <img src="../../img/verified-icon.png"
+                                 class="wd-suggested-icon wd-rounded-corners-all-around">
                         </div>
+                        <div class="text-secondary">@Tesla</div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-2">
                         <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
                     </div>
                 </div>
             </li>
-
         </ul>
     </div>
 </div>
