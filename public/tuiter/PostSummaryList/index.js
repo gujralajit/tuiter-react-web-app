@@ -5,13 +5,13 @@ import posts from "./posts.js";
 
 const PostSummaryList = () => {
     return (`
-        <div class="list-group main-section">
+<!--        <div class="list-group main-section">-->
         ${
         posts.map(todo => {
             return (PostSummaryItem(todo));
         }).join('')
     }
-       </div>
+<!--       </div>-->
    `);
 }
 
