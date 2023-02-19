@@ -27,7 +27,7 @@ const ExploreComponent = () => {
         </ul>
                 <div class="list-group main-section">
                 
-            <a href="#" class="list-group-item list-group-item-action">
+            <a href="#" class="disabled list-group-item list-group-item-action">
                 <img src="../../img/sapcex-starship.webp">
                 <b class="carousel-caption">SpaceX's Starship</b>
             </a>           

@@ -23,9 +23,7 @@
 }
 
 .wd-icon {
-    padding: 10px;
-    min-width: 40px;
-    border: 100px;
+    padding-left: 20px;
 }
 
 .wd-icon-color-blue {
@@ -99,12 +97,14 @@
     font-size: 15px;
     margin-left: 12px;
     margin-top: 12px;
+    color: white;
 }
 .wd-content-font {
     font-size: 15px;
     max-width: 506px;
     margin-left: 12px;
     margin-right: 16px;
+    color: white;
 }
 .wd-content-image {
     width: 530px;
@@ -144,4 +144,7 @@
 .wd-flex-container .wd-flex-container-inside a {
     padding-left: 10px;
     padding-right: 100px;
+}
+.list-group {
+    --bs-list-group-border-color: '';
 }
