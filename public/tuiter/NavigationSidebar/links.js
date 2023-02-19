@@ -17,7 +17,7 @@ export default [
     },
     {   icon: 'fas fa-bookmark',
         title: 'Bookmarks',
-        href: '#',
+        href: '../bookmarks/index.html',
     },
     {   icon: 'fas fa-list',
         title: 'Lists',

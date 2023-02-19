@@ -2,6 +2,7 @@
 
 import NavigationSidebar from "../NavigationSidebar/index.js";
 import PostSummaryList from "../PostSummaryList/index.js";
+import PostItem from "../PostItem/index.js";
 
 function homeComponent() {
     $('#wd-home').append(`
@@ -12,7 +13,7 @@ function homeComponent() {
     ${NavigationSidebar('Home')}
    </div>
    <div class="col-10 col-lg-7 col-xl-6">
-    <h3>Home Component</h3>    
+    ${PostItem()}
    </div>
    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
 <!--    <h3>WhoToFollowList </h3>-->

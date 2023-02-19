@@ -1,0 +1,147 @@
+.wd-img-icon {
+    display: block;
+    max-width: 500%;
+    width: 50px;
+    height: 50px;
+}
+
+.wd-img-verified {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.wd-input-icons i {
+    position: absolute;
+}
+
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wd-icon {
+    padding: 10px;
+    min-width: 40px;
+    border: 100px;
+}
+
+.wd-icon-color-blue {
+    color: rgb(29, 161, 242);
+}
+
+.wd-input-field {
+    width: 95%;
+    text-align: left;
+    margin-bottom: 3px;
+    padding: 10px 10px 10px 40px;
+}
+
+.main-section img {
+    max-width: 100%;
+    position: relative;
+}
+
+.carousel-caption {
+    text-align: left;
+    bottom: 0;
+    left: 20px;
+}
+
+.wd-suggested-icon {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+.wd-suggested-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+    float: right;
+    border-radius: 10px;
+}
+
+.wd-bookmarks-heading {
+    margin-left: 16px;
+    margin-top: 12px;
+    font-size: 20px;
+}
+.wd-bookmarks-handle {
+    margin-left: 16px;
+    padding-bottom: 12px;
+    border-bottom: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+    font-size: 13px;
+}
+.wd-flex-container {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: lightgray;
+    border-bottom-width: 1px;
+    max-width: 800px;
+}
+.wd-flex-container-inside {
+    display: flex;
+}
+.wd-avatar-image {
+    margin-left: 16px;
+    margin-top: 12px;
+    padding-bottom: 0px;
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+}
+.wd-handle-font {
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.wd-content-font {
+    font-size: 15px;
+    max-width: 506px;
+    margin-left: 12px;
+    margin-right: 16px;
+}
+.wd-content-image {
+    width: 530px;
+    height: 264px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-bottom: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+}
+.wd-image-font {
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 12px;
+    padding: 12px;
+    /*max-width: 484px;*/
+    border-bottom: solid;
+    border-color: lightgray;
+    border-bottom-width: 1px;
+    border-radius: 10px;
+}
+.wd-no-decoration {
+    text-decoration: none;
+}
+.wd-fg-color-red {
+    color: red;
+}
+.wd-tweet-icons {
+    padding-right: 100px;
+    padding-left: 10px;
+}
+.wd-fg-color-lightgray {
+    color: lightgray;
+}
+.wd-flex-container .wd-flex-container-inside a {
+    padding-left: 10px;
+    padding-right: 100px;
+}
