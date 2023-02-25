@@ -12,7 +12,7 @@ const NavigationSidebar = (
                 Tuiter</a>
             <a className={`list-group-item
                     ${active === 'home'?'active':''}`}>
-                <i className="bi bi-house"></i>
+                <i className="bi bi-house-fill"></i>
                 Home
             </a>
             <a className={`list-group-item
@@ -32,7 +32,7 @@ const NavigationSidebar = (
             </a>
             <a className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
-                <i className="bi bi-bookmark"></i>
+                <i className="bi bi-bookmark-fill"></i>
                 Bookmarks
             </a>
             <a className={`list-group-item
@@ -42,7 +42,7 @@ const NavigationSidebar = (
             </a>
             <a className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
-                <i className="bi bi-person"></i>
+                <i className="bi bi-person-fill"></i>
                 Profile
             </a>
             <a className={`list-group-item
