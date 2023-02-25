@@ -1,55 +1,74 @@
 import React from "react";
+import {Link} from "react-router-dom";
+import {useLocation} from "react-router";
 
-const NavigationSidebar = (
-    {
-        active = 'explore'
-    }
-) => {
+const NavigationSidebar = () => {
+        const {pathname} = useLocation();
+        const paths = pathname.split('/')
+        const active = paths[2];
     return (
         <div className="list-group">
-            <a className="list-group-item">
-                <i className="bi bi-twitter"></i>
-                Tuiter</a>
-            <a className={`list-group-item
+            <a className="list-group-item ps-md-1 ps-lg-2">
+                <div className="float-start pe-1 pt-1">
+                    <i className="bi bi-twitter"></i>
+                </div>
+                <div className="d-none d-xl-block d-inline-block">Tuiter</div></a>
+            <Link to="./home" className={`list-group-item ps-md-1 ps-lg-2
                     ${active === 'home'?'active':''}`}>
-                <i className="bi bi-house-fill"></i>
-                Home
-            </a>
-            <a className={`list-group-item
+                <div className="float-start pe-1 pt-1">
+                    <i className="bi bi-house-fill"></i>
+                </div>
+                <div className="d-none d-xl-block d-inline-block">Home</div>
+            </Link>
+            <Link to="./explore"  className={`list-group-item ps-md-1 ps-lg-2
                     ${active === 'explore'?'active':''}`}>
-                <i className="bi bi-hash"></i>
-                Explore
-            </a>
-            <a className={`list-group-item
+                <div className="float-start pe-1 pt-1">
+                    <i className="bi bi-hash"></i>
+                </div>
+                <div className="d-none d-xl-block d-inline-block">Explore</div>
+            </Link>
+            <Link to="./home"  className={`list-group-item ps-md-1 ps-lg-2
                     ${active === 'notifications'?'active':''}`}>
-                <i className="bi bi-bell-fill"></i>
-                Notifications
-            </a>
-            <a className={`list-group-item
+                <div className="float-start pe-1 pt-1">
+                    <i className="bi bi-bell-fill"></i>
+                </div>
+                <div className="d-none d-xl-block d-inline-block">Notifications</div>
+            </Link>
+            <Link to="./home"  className={`list-group-item ps-md-1 ps-lg-2
                     ${active === 'messages'?'active':''}`}>
-                <i className="bi bi-chat-square-text-fill"></i>
-                Messages
-            </a>
-            <a className={`list-group-item
+                <div className="float-start pe-1 pt-1">
+                    <i className="bi bi-chat-square-text-fill"></i>
+                </div>
+                <div className="d-none d-xl-block d-inline-block">Messages</div>
+            </Link>
+            <Link to="./home"  className={`list-group-item ps-md-1 ps-lg-2
                     ${active === 'bookmarks'?'active':''}`}>
-                <i className="bi bi-bookmark-fill"></i>
-                Bookmarks
-            </a>
-            <a className={`list-group-item
+                <div className="float-start pe-1 pt-1">
+                    <i className="bi bi-bookmark-fill"></i>
+                </div>
+                <div className="d-none d-xl-block d-inline-block">Bookmarks</div>
+            </Link>
+            <Link to="./home"  className={`list-group-item ps-md-1 ps-lg-2
                     ${active === 'lists'?'active':''}`}>
-                <i className="bi bi-list-task"></i>
-                Lists
-            </a>
-            <a className={`list-group-item
+                <div className="float-start pe-1 pt-1">
+                    <i className="bi bi-list-task"></i>
+                </div>
+                <div className="d-none d-xl-block d-inline-block">Lists</div>
+            </Link>
+            <Link to="./home"  className={`list-group-item ps-md-1 ps-lg-2
                     ${active === 'profile'?'active':''}`}>
-                <i className="bi bi-person-fill"></i>
-                Profile
-            </a>
-            <a className={`list-group-item
+                <div className="float-start pe-1 pt-1">
+                    <i className="bi bi-person-fill"></i>
+                </div>
+                <div className="d-none d-xl-block d-inline-block">Profile</div>
+            </Link>
+            <Link to="./home"  className={`list-group-item ps-md-1 ps-lg-2
                     ${active === 'more'?'active':''}`}>
-                <i className="bi bi-three-dots"></i>
-                More
-            </a>
+                <div className="float-start pe-1 pt-1">
+                    <i className="bi bi-three-dots"></i>
+                </div>
+                <div className="d-none d-xl-block d-inline-block">More</div>
+            </Link>
         </div>
     );
 };

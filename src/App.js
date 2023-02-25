@@ -13,10 +13,8 @@ import {Routes, Route} from "react-router";
                 <Routes>
                     <Route index
                            element={<Labs/>}/>
-                    <Route path="/hello"
-                           element={<HelloWorld/>}/>
-                    <Route path="/tuiter"
-                           element={<Tuiter/>}/>
+                    <Route path="/hello" element={<HelloWorld/>}/>
+                    <Route path="/tuiter/*" element={<Tuiter/>}/>
                 </Routes>
             </div>
         </BrowserRouter>
