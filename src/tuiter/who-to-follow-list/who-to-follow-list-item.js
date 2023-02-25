@@ -9,7 +9,7 @@ const WhoToFollowListItem = ({
         </div>
         <div class="col-8">
             <div class="fw-bolder">{who.userName}
-                <img src="../../img/verified-icon.png" height={12} class="rounded-circle"/>
+                <img src="../../img/verified-icon.png" height={12} class=" ps-1 rounded-circle"/>
             </div>
             <div class="text-secondary">@{who.handle}</div>
         </div>
