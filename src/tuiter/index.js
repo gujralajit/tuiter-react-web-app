@@ -17,10 +17,7 @@ function Tuiter() {
                 <Routes>
                     <Route path="home"    element={<HomeComponent/>}/>
                     <Route path="explore" element={<ExploreComponent/>}/>
-                    {/*<Route path="/">*/}
-                    {/*    <Redirect to="exploreScreen" elem/>*/}
-                    {/*    <ExploreComponent/>*/}
-                    {/*</Route>*/}
+                    <Route path="/" element={<HomeComponent/>}/>
                 </Routes>
             </div>
             <div className="d-none d-lg-block col-lg-4">
