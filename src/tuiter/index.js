@@ -4,10 +4,14 @@ import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import {Routes, Route} from "react-router";
 import HomeComponent from "./home";
-import Redirect from "react";
+import whoReducer from "./reducers/who-reducer";
+import { configureStore } from '@reduxjs/toolkit';
+import {Provider} from "react-redux";
+const store = configureStore({reducer: {who: whoReducer}});
 
 function Tuiter() {
     return (
+        <Provider store={store}>
         <div className="row mt-2">
             <div className="col-1 col-md-1 col-lg-1 col-xl-2">
                 <NavigationSidebar active="explore"/>
@@ -24,6 +28,7 @@ function Tuiter() {
                 <WhoToFollowList/>
             </div>
         </div>
+        </Provider>
     );
 }
 
