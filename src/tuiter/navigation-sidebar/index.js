@@ -58,7 +58,7 @@ const NavigationSidebar = () => {
                 <div className="d-none d-xl-block d-inline-block">Lists</div>
             </Link>
             <Link to="./profile"  className={`list-group-item ps-md-1 ps-lg-2
-                    ${active === 'profile'?'active':''}`}>
+                    ${active === 'profile' ?'active':''}`}>
                 <div className="float-start pe-1 pt-1">
                     <i className="bi bi-person-fill"/>
                 </div>

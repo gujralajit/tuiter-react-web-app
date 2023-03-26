@@ -1,15 +1,15 @@
-[{
-  "firstName": "Elon",
-  "lastName": "Musk",
-  "handle": "@elonmusk",
-  "pfp": "elno-pfp.jpg",
-  "totaltuits": "23.8K",
-  "banner": "elno-banner.jpg",
-  "bio": "CEO of Tuiter",
-  "website": "https://www.tesla.com/elon-musk",
-  "location": "US",
-  "dateOfBirth": "June 28, 1971",
-  "dateJoined": "Jun 2009",
-  "followingCount": 184,
-  "followersCount": "123.6M"
-}]
+{
+    "firstName": "Elon",
+    "lastName": "Musk",
+    "handle": "@elonmusk",
+    "pfp": "../../img/elno-pfp.jpg",
+    "totaltuits": "23.8K",
+    "banner": "../../img/elno-banner.jpg",
+    "bio": "CEO of Tuiter",
+    "website": "https://www.tesla.com/elon-musk",
+    "location": "US",
+    "dateOfBirth": "June 28, 1971",
+    "dateJoined": "Jun 2009",
+    "followingCount": 184,
+    "followersCount": "123.6M"
+}
