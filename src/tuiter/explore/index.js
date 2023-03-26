@@ -1,7 +1,10 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
 import "./index.css";
+// import {useSelector} from "react-redux";
+
 const ExploreComponent = () => {
+    // const PostSummaryList = useSelector(state => state.postSummary)
     return(
         <>
             <div className="row">
@@ -9,11 +12,11 @@ const ExploreComponent = () => {
                     <input placeholder="Search Tuiter"
                            className="form-control rounded-pill ps-5"/>
                     <i className="bi bi-search position-absolute
-                       wd-nudge-up"></i>
+                       wd-nudge-up"/>
                 </div>
                 <div className="col-1">
                     <i className="wd-bottom-4 text-primary float-end bi
-                       bi-gear-fill fs-2 position-relative pt-2"></i>
+                       bi-gear-fill fs-2 position-relative pt-2"/>
                 </div>
             </div>
             <ul className="nav nav-pills mb-2 pt-2">
@@ -28,7 +31,7 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src="../../img/sapcex-starship.webp" className="w-100"/>
+                <img src="../../img/spacex-starship.webp" className="w-100"/>
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>

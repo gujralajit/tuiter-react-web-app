@@ -3,7 +3,7 @@
     "_id": 123,
     "userName": "Java",
     "handle": "Java",
-    "avatarIcon": "../img/java-icon.png"
+    "avatarIcon": "../../img/java-icon.png"
   },
   {
     "_id": 234,

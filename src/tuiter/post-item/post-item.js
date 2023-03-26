@@ -24,7 +24,7 @@ const PostItem = ({
                 <div className="col-11">
                     <div className="fw-bolder ps-2">
                         {post.userName}
-                        <i className="fas fa-check-circle"></i>
+                        <i className="fas fa-check-circle"/>
                         <span
                             className="text-secondary fw-lighter"> {post.handle} &#183; {post.time}
                         </span>
@@ -40,7 +40,7 @@ const PostItem = ({
                         <i className="wd-icon bi bi-chat wd-fg-color-lightgray">{post.comments}</i>
                         <i className="bi bi-arrow-down-up wd-fg-color-lightgray">{post.retuits}</i>
                         <i className="bi bi-heart">{post.likes}</i>
-                        <i className="bi bi-share wd-fg-color-lightgray pt-1"></i>
+                        <i className="bi bi-share wd-fg-color-lightgray pt-1"/>
                     </ul>
                 </div>
             </div>
