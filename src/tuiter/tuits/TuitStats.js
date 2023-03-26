@@ -7,7 +7,7 @@ const TuitStats = ({liked, likes, replies, retuits}) => {
                 <i className="bi bi-chat me-3"/>{replies}
             </li>
             <li className="list-group-item border-0">
-                <i className="bi bi-recycle me-3"/>{retuits}
+                <i className="bi bi-arrow-down-up me-3"/>{retuits}
             </li>
             <li className="list-group-item border-0">
                 {
@@ -19,7 +19,7 @@ const TuitStats = ({liked, likes, replies, retuits}) => {
                 {likes}
             </li>
             <li className="list-group-item border-0">
-                <i className="bi bi-upload me-3"/>
+                <i className="bi bi-share me-3"/>
             </li>
         </ul>
     )
