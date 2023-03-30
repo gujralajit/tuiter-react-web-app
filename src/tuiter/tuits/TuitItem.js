@@ -1,7 +1,8 @@
 import React from "react";
 import TuitStats from "./TuitStats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../reducers/hometuits-reducer";
+// import {deleteTuit} from "../reducers/hometuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
@@ -13,9 +14,11 @@ const TuitItem = (
             "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
             "pfp": "../../img/spacex-logo.png",
             "liked": true,
+            "disliked": true,
             "replies": 123,
             "retuits": 432,
             "likes": 2345,
+            "dislikes": 0,
             "handle": "@spacex",
             "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
         }
@@ -23,7 +26,8 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
+        // dispatch(deleteTuit(id));
     }
     return(
         <li className="list-group-item">
@@ -46,6 +50,7 @@ const TuitItem = (
                         {tuit.tuit}
                     </div>
                     <TuitStats
+                        tuit={tuit}
                         liked={tuit.liked}
                         likes={tuit.likes}
                         replies={tuit.replies}

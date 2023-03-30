@@ -13,7 +13,7 @@ import {Provider} from "react-redux";
 import postSummaryReducer from "./reducers/post-summary-reducer";
 import ProfileComponent from "./profile";
 import EditProfileComponent from "./edit-profile";
-const store = configureStore({reducer: {who: whoReducer, postSummary: postSummaryReducer, tuits: tuitsReducer,
+const store = configureStore({reducer: {who: whoReducer, postSummary: postSummaryReducer, tuitsData: tuitsReducer,
         hometuits: homeTuitsReducer, profile: profileReducer}});
 
 function Tuiter() {
